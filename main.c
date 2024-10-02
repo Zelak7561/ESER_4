@@ -19,9 +19,7 @@ int main(void) {
        perimeter = 2 * pi * r;
        area = pi * (r * r) ;
 
-       printf("The diameter of the circle is: [%f]\n", diameter);
-       printf("The perimeter of the circle is: [%f]\n", perimeter);
-       printf("The area of the circle is: [%f]\n", area);
+       printf("Diameter = %f\nPerimeter = %f\nArea: %f\n", diameter , perimeter , area);
 
    } else {
        printf("Radius not valid");
